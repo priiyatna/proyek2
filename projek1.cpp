@@ -26,6 +26,7 @@ void tampilkanDaftarBuku(const Buku daftarBuku[], int jumlahBuku) {
         cout << "jenis buku: " << daftarBuku[i].jenisbuku << endl;
         cout << "ISBN: " << daftarBuku[i].isbn << endl;
         cout << "Tahun Terbit: " << daftarBuku[i].tahunTerbit << endl << endl;
+
     }
    
 }

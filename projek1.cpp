@@ -26,7 +26,6 @@ void tampilkanDaftarBuku(const Buku daftarBuku[], int jumlahBuku) {
         cout << "jenis buku: " << daftarBuku[i].jenisbuku << endl;
         cout << "ISBN: " << daftarBuku[i].isbn << endl;
         cout << "Tahun Terbit: " << daftarBuku[i].tahunTerbit << endl << endl;
-
     }
    
 }
@@ -54,7 +53,7 @@ int main() {
             case 1:
                 if (jumlahBuku < MAX_BUKU) {
                     cout << "\nMasukkan informasi buku:" << endl;
-                    cout << "Judul: ";
+                    cout << "Judul Buku: ";
                     cin.ignore();
                     getline(cin, daftarBuku[jumlahBuku].judul);
                     cout << "Penulis: ";
@@ -72,12 +71,12 @@ int main() {
                     jumlahBuku++;
                 }
 				if (jumlahBuku < MAX_BUKU) {
-                    cout <<endl<< "Judul: ";
+                    cout <<endl<< "Judul Buku: ";
                     cin.ignore();
                     getline(cin, daftarBuku[jumlahBuku].judul);
                     cout << "Penulis: ";
                     getline(cin, daftarBuku[jumlahBuku].penulis);
-                    cout << "penerbit: ";
+                    cout << "penerbuit: ";
                     getline(cin, daftarBuku[jumlahBuku].penerbit);
                      cout << "jumlah halaman: ";
                     getline(cin, daftarBuku[jumlahBuku].jumlahalaman);
@@ -90,12 +89,12 @@ int main() {
                     jumlahBuku++;
                 } 
 				if (jumlahBuku < MAX_BUKU) {
-                    cout <<endl<< "Judul: ";
+                    cout <<endl<< "Judul Buku: ";
                     cin.ignore();
                     getline(cin, daftarBuku[jumlahBuku].judul);
                     cout << "Penulis: ";
                     getline(cin, daftarBuku[jumlahBuku].penulis);
-                    cout << "penerbit: ";
+                    cout << "penerbuit: ";
                     getline(cin, daftarBuku[jumlahBuku].penerbit);
                      cout << "jumlah halaman: ";
                     getline(cin, daftarBuku[jumlahBuku].jumlahalaman);
@@ -108,12 +107,12 @@ int main() {
                     jumlahBuku++;
                 } 
 				if (jumlahBuku < MAX_BUKU) {
-                    cout <<endl<< "Judul: ";
+                    cout <<endl<< "Judul Buku: ";
                     cin.ignore();
                     getline(cin, daftarBuku[jumlahBuku].judul);
                     cout << "Penulis: ";
                     getline(cin, daftarBuku[jumlahBuku].penulis);
-                    cout << "penerbit: ";
+                    cout << "penerbuit: ";
                     getline(cin, daftarBuku[jumlahBuku].penerbit);
                      cout << "jumlah halaman: ";
                     getline(cin, daftarBuku[jumlahBuku].jumlahalaman);
@@ -126,12 +125,12 @@ int main() {
                     jumlahBuku++;
                 } 
 				if (jumlahBuku < MAX_BUKU) {
-                    cout <<endl<< "Judul: ";
+                    cout <<endl<< "Judul Buku: ";
                     cin.ignore();
                     getline(cin, daftarBuku[jumlahBuku].judul);
                     cout << "Penulis: ";
                     getline(cin, daftarBuku[jumlahBuku].penulis);
-                    cout << "penerbit: ";
+                    cout << "penerbuit: ";
                     getline(cin, daftarBuku[jumlahBuku].penerbit);
                      cout << "jumlah halaman: ";
                     getline(cin, daftarBuku[jumlahBuku].jumlahalaman);
@@ -158,7 +157,7 @@ int main() {
 
                     if (idUpdate >= 1 && idUpdate <= jumlahBuku) {
                         cout << "\nMasukkan informasi baru untuk buku:" << endl;
-                        cout << "Judul: ";
+                        cout << "Judul Buku: ";
                         cin.ignore();
                         getline(cin, daftarBuku[idUpdate - 1].judul);
                         cout << "Penulis: ";

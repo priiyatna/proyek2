@@ -148,6 +148,7 @@ int main() {
             case 2:
                 tampilkanDaftarBuku(daftarBuku, jumlahBuku);
                 break;
+<<<<<<< HEAD
             case 3:
                 if (jumlahBuku > 0) {
                     tampilkanDaftarBuku(daftarBuku, jumlahBuku);
@@ -181,6 +182,9 @@ int main() {
                     cout << "Daftar buku kosong." << endl;
                 }
                 break;
+=======
+   
+>>>>>>> f78f4b59a57cfa90fce97a1eb6a2b25d5abb7bd8
             case 4:
                 if (jumlahBuku > 0) {
                     tampilkanDaftarBuku(daftarBuku, jumlahBuku);
@@ -203,9 +207,7 @@ int main() {
                     cout << "Daftar buku kosong." << endl;
                 }
                 break;
-            case 5:
-                cout << "Keluar dari program." << endl;
-                break;
+           
             default:
                 cout << "Pilihan tidak valid. Silakan pilih lagi." << endl;
         }
